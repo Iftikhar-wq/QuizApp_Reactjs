@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+  background-color: #E2EEE0;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000000;
+  align-items: center;
+}
+
+.Menu input{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #000000;
+  border: 1px solid #3d8f2d;
+  padding-left: 12px;
+}
+
+button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #3D8F2D;
+  color: #ffffff;
+  border: 2px solid #d2d2d2;
+}
+
+
+
+button:hover {
+  cursor: pointer;
+}
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #222326;
+}
+
+.Menu,
+.Quiz,
+.EndScreen h1 {
+  color:#000000;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #000000;
+}
+button.selected {
+  background-color: #54AA40;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+.questions{
+  padding: 5px;
+}
